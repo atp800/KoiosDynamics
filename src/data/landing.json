@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Luna Landing your perfect landing page",
-    "description": "Landing page template",
+    "title": "Koios Dynamics",
+    "description": "Human and artificial intelligence, combined",
     "lang": "en",
     "charset": "UTF-8",
     "ldJson": {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "Luna Landing",
-      "description": "Fictitious company that seeks to elevate and simplify the lives of web developers.",
+      "name": "Koios Dynamics",
+      "description": "Human and artificial intelligence, combined",
       "url": "https://luna-landing-rust.vercel.app/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
@@ -33,35 +33,36 @@
       { "label": "Blog", "href": "#" }
     ]
   },
+
   "heroData": {
-    "title": "Open Your Mind to the Universe: Welcome to",
-    "subTitle": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "title": "Modern and intelligent web development, analytics, dashboards, and bespoke AI models",
+    "subTitle": "Human and artificial intelligence, combined",
     "primaryCta": "Github Repo",
     "secondaryCta": "See our pricing",
-    "highlightedTitle": "Luna Landing"
+    "highlightedTitle": "Koios Dynamics"
   },
   "servicesData": {
-    "title": "Everything you need to build a website",
+    "title": "Optimised websites, designed to run fast",
     "services": [
       {
-        "title": "Professional Templates",
+        "title": "Web Development",
         "icon": "DevIcon",
-        "description": "Our templates are crafted by experienced web designers, ensuring a modern and polished look for your site. From typography to element design, every detail is carefully considered to convey a professional image."
+        "description": "We can have a fast and well-optimised website up and running in less than a week, using professional templates crafted by experienced designers."
       },
       {
-        "title": "Integrated Accessibility",
+        "title": "Analytics",
         "icon": "PlanetIcon",
-        "description": "We care about web accessibility and have integrated features to ensure your site is accessible to all users, including those with visual or motor disabilities. Our templates comply with WCAG accessibility standards to provide an inclusive experience for everyone."
+        "description": "Turn your website into reliable revenue and give your users the best possible experience by tracking how your website is used."
       },
       {
-        "title": "SEO-Optimized",
+        "title": "Dashboards",
         "icon": "FileIcon",
-        "description": "We understand the importance of your site being visible in search engines. That's why our templates are optimized for SEO, meaning they are structured and coded to be easily indexed by Google and other search engines, helping to improve your ranking in search results."
+        "description": "Your data only a glance away: maximise your KPIs and stay on top of important metrics with a clean, intuitive dashboard."
       },
       {
-        "title": "Easy Set up",
+        "title": "Bespoke AI Models",
         "icon": "ConfigIcon",
-        "description": "With our templates, you don't need to be a web development expert to have an impressive site. They are easy to set up and customize, with intuitive options that allow you to change colors, fonts, page layout, and more with just a few clicks. Make your site stand out hassle-free!"
+        "description": "Know what will happen before it does. Forecasting, modelling, and predicition of anything from order volume and revenue figures, to industry trends and user behaviour."
       }
     ]
   },
