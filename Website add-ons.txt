@@ -9,4 +9,4 @@ FAQs or about
 - why/how are you prices so low?
 
 
-Our
+in stack section mention javascript, css, html, node.js, npm and pnpm? Use their logos?

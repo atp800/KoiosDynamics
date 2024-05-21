@@ -16,6 +16,9 @@ import SvelteIcon from "@/icons/techs/SvelteIcon.astro";
 import VercelIcon from "@/icons/techs/VercelIcon.astro";
 import VueIcon from "@/icons/techs/VueIcon.astro";
 
+import AstroIcon from "@/icons/techs/AstroIcon.astro";
+import DjangoIcon from "@/icons/techs/DjangoIcon.astro";
+
 interface Props {
   icon: Icon;
   class?: string;
@@ -39,6 +42,9 @@ const icons = [
   NetlifyIcon,
   SolidIcon,
   VercelIcon,
+
+  AstroIcon,
+  DjangoIcon,
 ];
 
 let figures: Record<string, (_props: Record<string, unknown>) => unknown> = {};

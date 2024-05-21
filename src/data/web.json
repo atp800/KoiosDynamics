@@ -42,27 +42,27 @@
     "highlightedTitle": "Koios Dynamics"
   },
   "servicesData": {
-    "title": "Optimised websites, designed to run fast",
+    "title": "Web Development",
     "services": [
       {
-        "title": "Web Development",
+        "title": "Blogs",
         "icon": "DevIcon",
-        "description": "We can have a fast and well-optimised website up and running in less than a week, using professional templates crafted by experienced designers."
+        "description": ""
       },
       {
-        "title": "Analytics and Data Visualisation",
+        "title": "E-Commerce",
         "icon": "PlanetIcon",
-        "description": "Turn your website into reliable revenue and give your users the best possible experience by tracking how your website is used. Maximise KPIs with your data only a glance away in a clean, intuitive dashboard."
+        "description": ""
       },
 	  {
-        "title": "Bespoke AI Models",
+        "title": "Portflios",
         "icon": "ConfigIcon",
-        "description": "Know what will happen before it does. Forecasting, modelling, and predicition of anything from order volume and revenue figures, to industry trends and user behaviour."
+        "description": ""
       },
       {
-        "title": "Coding Support",
+        "title": "Business",
         "icon": "FileIcon",
-        "description": "Need an extra pair of hands? Our professional programmers have years of experince in Python, Java, SQL, JavaScript and more. Get support in writing high quality code for backend, frontend, database and ML projects at low cost."
+        "description": ""
       }
       
     ]
@@ -87,21 +87,13 @@
     ]
   },
   "brandsData": {
-    "title": "Get smarter about the future",
-    "description": "Bespoke AI models for making predicitons and forecasts, and making informed, data-driven decisions",
+    "title": "Our stack",
+    "description": "We primarily use the modern Astro framework combined with Tailwind CSS for beautiful, fast, reliable and responsive websites. Depending on our client's needs we may also use Vue, Django and Svelte. Vue's reactive components bring a versatile and approachable structure to our codebase, Django's robust and scalable framework empowers us to build versatile backend solutions, and Svelte's compiler-based technology helps us write high-performance JavaScript with less code, ensuring our websites are efficient and user-friendly. ",
     "brands": [
-      { "label": "React", "icon": "ReactIcon", "href": "https://react.dev/" },
+      { "label": "Astro", "icon": "AstroIcon", "href": "https://astro.build/" },
       { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },
-      {
-        "label": "Svelte",
-        "icon": "SvelteIcon",
-        "href": "https://svelte.dev/"
-      },
-      {
-        "label": "Solid",
-        "icon": "SolidIcon",
-        "href": "https://www.solidjs.com/"
-      },
+      { "label": "Svelte", "icon": "SvelteIcon", "href": "https://svelte.dev/" },
+      { "label": "Django", "icon": "DjangoIcon", "href": "https://www.djangoproject.com/" },
       {
         "label": "Vercel",
         "icon": "VercelIcon",
