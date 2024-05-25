@@ -15,16 +15,19 @@ const { data } = Astro.props;
 ---
 
 <section id="hero-section" class="flex justify-center mt-48 h-screen">
-  <div class="md:w-1/2">
+  <div class="text-center w-full">
     <h1 class="text-4xl text-center md:text-6xl">
       <!-- {data.title} -->
 	  <br>
-      <span class="text-6xl text-primary font-semibold md:text-8xl"> {data.highlightedTitle} </span>
+      <!-- <span class="text-6xl text-primary font-semibold md:text-8xl"> {data.highlightedTitle} </span> -->
+	  <p class="text-6xl text-primary font-semibold md:text-8xl">
+        Koios<br>Dynamics
+      </p>
     </h1>
     <h2 class="mt-10 text-lg text-center opacity-80 md:text-2xl">
       {data.subTitle}
     </h2>
-    <div class="flex justify-evenly mt-10">
+    <div class="flex justify-center mt-10 space-x-8">
       <Action
         as="a"
         type="button"
