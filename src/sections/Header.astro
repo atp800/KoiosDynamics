@@ -9,46 +9,75 @@ interface Props {
 const { data } = Astro.props;
 ---
 
-<header
-  id="navbar"
-  class="w-full transition duration-300 justify-center fixed h-20 z-50 hidden md:flex"
->
-  <nav aria-label="Main Navigation" class="flex flex-row items-center w-3/4">
-    <div class="text-nowrap">
-      <Action as="a" class="text-xl" href="#">{data.logo}</Action>
-    </div>
-    <ul class="flex flex-row w-full justify-center gap-x-14">
-      {
-        data.links.map((item) => (
-          <li class="text-lg hover:scale-110 hover:opacity-80">
-            <Action as="a" href={item.href}>
-              {item.label}
-            </Action>
-          </li>
-        ))
-      }
+<header class="fixed top-0 w-full z-50">
+  <nav
+    id="navbar"
+    class="flex justify-between items-center w-full h-20 px-4 bg-transparent transition duration-300"
+    aria-label="Main Navigation"
+  >
+    <!-- Logo or Branding -->
+    <!-- <div class="ml-auto">
+      <Action as="a" class="text-xl" href="">{data.logo ? data.logo : 'Logo'}</Action>
+    </div> -->
+
+    <!-- Desktop Links -->
+    <ul class="hidden 2xl:flex flex-row w-full justify-center gap-x-14">
+      {data.links?.map((item) => (
+        <li class="text-lg hover:scale-110 hover:opacity-80">
+          <Action as="a" href={item.href}>{item.label}</Action>
+        </li>
+      ))}
     </ul>
-    <span></span>
+  
+    <!-- Mobile Burger Icon -->
+    <div class="2xl:hidden ml-auto">
+      <button id="menu-btn" class="focus:outline-none">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  
+    <!-- Mobile Menu (hidden initially) -->
+    <ul id="mobile-menu" class="absolute bg-white right-0 w-3/4 h-screen top-20 hidden flex-col p-8">
+      {data.links?.map((item) => (
+        <li class="text-lg hover:scale-110 hover:opacity-80 my-2">
+          <Action as="a" href={item.href}>{item.label}</Action>
+        </li>
+      ))}
+    </ul>
   </nav>
 </header>
 
 <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const navbar = document.getElementById("navbar");
+
+  menuBtn?.addEventListener("click", () => {
+    mobileMenu?.classList.toggle("hidden");
+  });
+
   window.addEventListener("scroll", function () {
-    const navbar = document.getElementById("navbar");
     if (!navbar) return;
 
     if (window.scrollY >= 20) {
-      navbar.classList.remove("border-b-transparent");
-      navbar.classList.remove("bg-transparent");
-      navbar.classList.add("border-b");
-      navbar.classList.add("border-b-slate-300");
-      navbar.classList.add("bg-white");
+      navbar.classList.replace("bg-transparent", "bg-white");
+      navbar.classList.replace("border-b-transparent", "border-b-slate-300");
     } else {
-      navbar.classList.remove("border-b");
-      navbar.classList.remove("border-b-slate-300");
-      navbar.classList.remove("bg-white");
-      navbar.classList.add("border-b-transparent");
-      navbar.classList.add("bg-transparent");
+      navbar.classList.replace("bg-white", "bg-transparent");
+      navbar.classList.replace("border-b-slate-300", "border-b-transparent");
     }
   });
 </script>

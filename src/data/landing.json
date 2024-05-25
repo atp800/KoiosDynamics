@@ -26,11 +26,13 @@
   "headerData": {
     "logo": "Koios Dynamics",
     "links": [
-      { "label": "About", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Prices", "href": "#" },
-      { "label": "FAQs", "href": "#" },
-      { "label": "Blog", "href": "#" }
+      { "label": "Home", "href": "" },
+      { "label": "Web Development", "href": "web" },
+      { "label": "Analytics", "href": "analytics" },
+      { "label": "AI and Data Science", "href": "ai" },
+      { "label": "Coding", "href": "coding" },
+	  { "label": "Articles", "href": "articles" },
+      { "label": "About", "href": "about" }
     ]
   },
 
