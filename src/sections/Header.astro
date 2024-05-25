@@ -15,10 +15,6 @@ const { data } = Astro.props;
     class="flex justify-between items-center w-full h-20 px-4 bg-transparent transition duration-300"
     aria-label="Main Navigation"
   >
-    <!-- Logo or Branding -->
-    <!-- <div class="ml-auto">
-      <Action as="a" class="text-xl" href="">{data.logo ? data.logo : 'Logo'}</Action>
-    </div> -->
 
     <!-- Desktop Links -->
     <ul class="hidden 2xl:flex flex-row w-full justify-center gap-x-14">
@@ -31,32 +27,32 @@ const { data } = Astro.props;
   
     <!-- Mobile Burger Icon -->
     <div class="2xl:hidden ml-auto">
-      <button id="menu-btn" class="focus:outline-none">
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16m-7 6h7"
-          ></path>
-        </svg>
-      </button>
-    </div>
-  
-    <!-- Mobile Menu (hidden initially) -->
-    <ul id="mobile-menu" class="absolute bg-white right-0 w-3/4 h-screen top-20 hidden flex-col p-8">
-      {data.links?.map((item) => (
-        <li class="text-lg hover:scale-110 hover:opacity-80 my-2">
-          <Action as="a" href={item.href}>{item.label}</Action>
-        </li>
-      ))}
-    </ul>
+		<button id="menu-btn" class="focus:outline-none">
+		  <svg
+			class="w-6 h-6"
+			fill="none"
+			stroke="currentColor"
+			viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg"
+		  >
+			<path
+			  stroke-linecap="round"
+			  stroke-linejoin="round"
+			  stroke-width="2"
+			  d="M4 6h16M4 12h16m-7 6h7"
+			></path>
+		  </svg>
+		</button>
+	  </div>
+	
+	  <!-- Mobile Menu (hidden initially) -->
+	  <ul id="mobile-menu" class="absolute bg-[rgba(255,255,255,1)] right-0 w-1/3 h-screen top-20 hidden flex-col p-8 rounded-2xl shadow-2xl">
+		{data.links?.map((item) => (
+		  <li class="text-lg hover:scale-110 hover:opacity-80 my-2">
+			<Action as="a" href={item.href}>{item.label}</Action>
+		  </li>
+		))}
+	  </ul>
   </nav>
 </header>
 
