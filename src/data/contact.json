@@ -26,13 +26,11 @@
   "headerData": {
     "logo": "Koios Dynamics",
     "links": [
-      { "label": "Home", "href": "" },
+      { "label": "Home", "href": "/" },
       { "label": "Web Development", "href": "web" },
       { "label": "Analytics", "href": "analytics" },
       { "label": "AI and Data Science", "href": "ai" },
-      { "label": "Coding", "href": "coding" },
-	  { "label": "Articles", "href": "articles" },
-      { "label": "About", "href": "about" }
+      { "label": "Coding", "href": "coding" }
     ]
   },
 
