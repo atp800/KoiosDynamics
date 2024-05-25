@@ -48,7 +48,7 @@ const { data } = Astro.props;
 	  <!-- Mobile Menu (hidden initially) -->
 	  <ul id="mobile-menu" class="absolute bg-[rgba(255,255,255,1)] right-0 w-1/3 h-screen top-20 hidden flex-col p-8 rounded-2xl shadow-2xl">
 		{data.links?.map((item) => (
-		  <li class="text-lg hover:scale-110 hover:opacity-80 my-2">
+		  <li class="text-lg hover:scale-110 hover:opacity-80 my-8">
 			<Action as="a" href={item.href}>{item.label}</Action>
 		  </li>
 		))}
@@ -64,6 +64,14 @@ const { data } = Astro.props;
   menuBtn?.addEventListener("click", () => {
     mobileMenu?.classList.toggle("hidden");
   });
+
+    // Close menu on window resize if larger than 2xl
+	window.addEventListener("resize", () => {
+		const is2xl = window.innerWidth >= 1536; // Tailwind's 2xl breakpoint is usually 1536px
+		if (is2xl && mobileMenu && !mobileMenu.classList.contains("hidden")) {
+			mobileMenu.classList.add("hidden");
+		}
+	});
 
   window.addEventListener("scroll", function () {
     if (!navbar) return;
