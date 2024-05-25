@@ -47,3 +47,22 @@ export const getCodingData = async (): Promise<CodingPageData> => {
   return data;
 };
 
+
+// About
+import type { AboutPageData } from "@/config/about.interface";
+import aboutData from "@/data/about.json";
+
+export const getAboutData = async (): Promise<AboutPageData> => {
+  const data: AboutPageData = aboutData;
+  return data;
+};
+
+
+// Contact
+import type { ContactPageData } from "@/config/contact.interface";
+import contactData from "@/data/contact.json";
+
+export const getContactData = async (): Promise<ContactPageData> => {
+  const data: ContactPageData = contactData;
+  return data;
+};

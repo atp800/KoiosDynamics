@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Koios Dynamics",
+    "description": "Human and artificial intelligence, combined",
+    "lang": "en",
+    "charset": "UTF-8",
+    "ldJson": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Koios Dynamics",
+      "description": "Human and artificial intelligence, combined",
+      "url": "https://luna-landing-rust.vercel.app/",
+      "logo": "./public/favicon.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "luna-landing@luna.com",
+        "contactType": "Client Service"
+      },
+      "sameAs": [
+        "https://www.twitter.com/yourpage",
+        "https://www.instagram.com/yourpage",
+        "https://www.linkedin.com/company/yourpage"
+      ]
+    }
+  },
+  "headerData": {
+    "logo": "Koios Dynamics",
+    "links": [
+      { "label": "Home", "href": "" },
+      { "label": "Web Development", "href": "web" },
+      { "label": "Analytics", "href": "analytics" },
+      { "label": "AI and Data Science", "href": "ai" },
+      { "label": "Coding", "href": "coding" },
+	  { "label": "Articles", "href": "articles" },
+      { "label": "About", "href": "about" }
+    ]
+  },
+
+  "heroData": {
+    "title": "Modern and intelligent web development, analytics, dashboards, and bespoke AI models",
+    "subTitle": "Human and artificial intelligence, combined",
+    "primaryCta": "Contact us",
+    "secondaryCta": "See our pricing",
+    "highlightedTitle": "Koios Dynamics"
+  },
+  "servicesData": {
+    "title": "Web Development",
+    "services": [
+      {
+        "title": "Blogs",
+        "icon": "DevIcon",
+        "description": ""
+      },
+      {
+        "title": "E-Commerce",
+        "icon": "PlanetIcon",
+        "description": ""
+      },
+	  {
+        "title": "Portflios",
+        "icon": "ConfigIcon",
+        "description": ""
+      },
+      {
+        "title": "Business",
+        "icon": "FileIcon",
+        "description": ""
+      }
+      
+    ]
+  },
+  "adventajesData": {
+    "title": "    Unlock the Power of Koios Dynamics: Discover the Key Benefits",
+    "adventajes": [
+      {
+        "title": "Why wait?",
+        "description": "Get up and running fast without comrpomising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
+        "img": "template.webp",
+        "imageAlt": "this is an image about the template service adventajes",
+        "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
+      },
+      {
+        "title": "Maximise Conversions",
+        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
+        "img": "seo.webp",
+        "imageAlt": "this is an image about the SEO adventajes",
+        "checks": ["Improve user experiences", "Collect data you can use", "Increase traffic and sales"]
+      }
+    ]
+  },
+  "brandsData": {
+    "title": "Our stack",
+    "description": "We primarily use the modern Astro framework combined with Tailwind CSS for beautiful, fast, reliable and responsive websites. Depending on our client's needs we may also use Vue, Django and Svelte. Vue's reactive components bring a versatile and approachable structure to our codebase, Django's robust and scalable framework empowers us to build versatile backend solutions, and Svelte's compiler-based technology helps us write high-performance JavaScript with less code, ensuring our websites are efficient and user-friendly. ",
+    "brands": [
+      { "label": "Astro", "icon": "AstroIcon", "href": "https://astro.build/" },
+      { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },
+      { "label": "Svelte", "icon": "SvelteIcon", "href": "https://svelte.dev/" },
+      { "label": "Django", "icon": "DjangoIcon", "href": "https://www.djangoproject.com/" },
+      {
+        "label": "Vercel",
+        "icon": "VercelIcon",
+        "href": "https://vercel.com/"
+      },
+      {
+        "label": "Netlify",
+        "icon": "NetlifyIcon",
+        "href": "https://www.netlify.com/"
+      }
+    ]
+  },
+  "pricingData": {
+    "title": "Our Pricing",
+    "tiers": [
+      {
+        "title": "Tracking and Dashboard Setup",
+        "description": "Start collecting valuable data",
+        "price": {
+          "amount": "£100",
+          "period": "One time fee"
+        },
+        "features": [
+		  "No ongoing fees",
+          "Google Analytics configuration",
+		  "Google Tag Manager set up",
+          "Professional dashboard",
+          "Optional additional tracking"
+        ],
+        "cta": "Get started"
+      },
+	  {
+        "title": "Website Development",
+        "description": "Have a website up and running in 1-2 weeks",
+        "price": {
+          "amount": "£200",
+          "period": "One time fee"
+        },
+        "features": [
+		  "No ongoing fees",
+          "Deployed in under 2 weeks",
+          "Customised for your needs",
+          "Full ownership of the code",
+          "Optional domain and hosting"
+        ],
+        "cta": "Get started"
+      },
+	  {
+        "title": "Day Rate",
+        "description": "Standard rate charged for a 7 hr day",
+        "price": {
+			"amount": "£125",
+			"period": "/day"
+		  },
+        "features": [
+          "Analytics and visualisation",
+          "Frontend and backend coding",
+          "SQL support",
+          "AI modelling and forecasting",
+          "Technical assistance"
+        ],
+        "cta": "Get started"
+      }
+    ]
+  },
+  "footerData": {
+    "logo": "Koios Dynamics",
+    "description": "Human and artificial intelligence, combined",
+    "links": [
+      { "label": "About", "href": "/" },
+      { "label": "Services", "href": "/" },
+      { "label": "Blog", "href": "/" },
+      { "label": "FAQs", "href": "/" },
+      { "label": "Contact", "href": "/" }
+    ],
+    "socials": [
+      { "icon": "FacebookIcon", "href": "/" },
+      { "icon": "InstagramIcon", "href": "/" },
+      { "icon": "TwitterIcon", "href": "/" },
+      { "icon": "GithubIcon", "href": "/" }
+    ]
+  }
+}
