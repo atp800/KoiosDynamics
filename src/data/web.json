@@ -73,14 +73,14 @@
       {
         "title": "Why wait?",
         "description": "Get up and running fast without compromising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
-        "img": "template.webp",
+        "img": "graphic_running.jpg",
         "imageAlt": "this is an image about the template service adventajes",
         "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
       },
       {
         "title": "Maximise Conversions",
         "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
-        "img": "seo.webp",
+        "img": "graphic_presentation.jpg",
         "imageAlt": "this is an image about the SEO adventajes",
         "checks": ["Improve user experiences", "Collect data you can use", "Increase traffic and sales"]
       }

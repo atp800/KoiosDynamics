@@ -1,0 +1,9 @@
+Koios Colour Palette
+
+Dark blue: #1C4FD8
+Dark grey: #2F2F41
+Mid grey: #3E3D56
+Light Grey: #E5E5E5
+White: #FFFFFF
+Light Skin: #FFB6BA
+Dark Skin: #5C3C2B
