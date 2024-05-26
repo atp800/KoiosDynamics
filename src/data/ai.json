@@ -42,7 +42,7 @@
     "highlightedTitle": "Koios Dynamics"
   },
   "servicesData": {
-    "title": "Web Development",
+    "title": "AI: It's not just a buzzword",
     "services": [
       {
         "title": "Blogs",
@@ -163,10 +163,8 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "About", "href": "/" },
-      { "label": "Services", "href": "/" },
-      { "label": "Blog", "href": "/" },
-      { "label": "FAQs", "href": "/" },
+ 	  { "label": "Articles", "href": "articles" },
+      { "label": "About", "href": "about" },
       { "label": "Contact", "href": "/" }
     ],
     "socials": [

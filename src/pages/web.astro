@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import Adventajes from "@/sections/Adventajes.astro";
 import Brands from "@/sections/Brands.astro";
 import Footer from "@/sections/Footer.astro";
 import Header from "@/sections/Header.astro";
@@ -14,8 +15,9 @@ const data = await getWebData();
   <main class="flex flex-col justify-center items-center">
     <div class="w-3/4">
       <!-- <Hero data={data.heroData} /> -->
+	  <br><br><br><br>
       <Services data={data.servicesData} />
-      <!-- <Adventajes data={data.adventajesData} /> -->
+      <Adventajes data={data.adventajesData} />
       <Brands data={data.brandsData} />
       <!-- <Pricing data={data.pricingData} /> -->
     </div>

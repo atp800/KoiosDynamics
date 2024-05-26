@@ -68,11 +68,11 @@
     ]
   },
   "adventajesData": {
-    "title": "    Unlock the Power of Koios Dynamics: Discover the Key Benefits",
+    "title": "Optimised websites, designed to run fast",
     "adventajes": [
       {
         "title": "Why wait?",
-        "description": "Get up and running fast without comrpomising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
+        "description": "Get up and running fast without compromising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
         "img": "template.webp",
         "imageAlt": "this is an image about the template service adventajes",
         "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
@@ -163,10 +163,8 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "About", "href": "/" },
-      { "label": "Services", "href": "/" },
-      { "label": "Blog", "href": "/" },
-      { "label": "FAQs", "href": "/" },
+ 	  { "label": "Articles", "href": "articles" },
+      { "label": "About", "href": "about" },
       { "label": "Contact", "href": "/" }
     ],
     "socials": [
