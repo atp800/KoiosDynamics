@@ -4,6 +4,7 @@ import Brands from "@/sections/Brands.astro";
 import Footer from "@/sections/Footer.astro";
 import Header from "@/sections/Header.astro";
 import Services from "@/sections/Services.astro";
+import SectionTitle from "@/components/SectionTitle.astro";
 import { getContactData } from "@/services/data.service";
 
 const data = await getContactData();
@@ -11,10 +12,14 @@ const data = await getContactData();
 
 <Layout meta={data.meta}>
   <Header data={data.headerData} />
-  <main class="flex flex-col items-center justify-center">
-    <div class="w-3/4">
-      <h1>Contact Us</h1>
-      <p>If you have any queries or need further assistance, please don't hesitate to contact us using the form below.</p>
+  <br><br><br>
+  <main class="flex flex-col items-center justify-center min-h-screen">
+	<SectionTitle>
+		Contact Us
+	</SectionTitle>
+	<!-- <br><br><br><br> -->
+    <div class="w-3/4 mt-32">
+      <p>To make an enquiry or if you have any queries, contact us using the form below.</p>
       <form
         action="https://api.web3forms.com/submit"
         method="POST"
@@ -25,11 +30,29 @@ const data = await getContactData();
       >
         <input type="hidden" name="access_key" value="81349c69-1052-470d-9f15-b3b763045557" />
         <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
+		
+		
+		<div>
+			<select
+			  name="service"
+			  required
+			  class="w-full px-4 py-3 border rounded-md outline-none focus:ring-4 border-slate-300 focus:border-slate-600 ring-slate-100"
+			>
+			  <option value="">Select a Service or Topic</option>
+			  <option value="web">Website Development</option>
+			  <option value="analytics">Analytics and Dashboards</option>
+			  <option value="ai">AI and Data Science</option>
+			  <option value="ai">Coding Support</option>
+			  <option value="ai">Multiple Services</option>
+			  <option value="ai">General Question</option>
+			  <option value="ai">Other</option>
+			</select>
+		</div>
 
         <div>
           <input
             type="text"
-            placeholder="Full Name"
+            placeholder="Name"
             required
             class="w-full px-4 py-3 border rounded-md outline-none focus:ring-4 border-slate-300 focus:border-slate-600 ring-slate-100 placeholder:text-slate-400"
             name="name"
@@ -55,47 +78,56 @@ const data = await getContactData();
           ></textarea>
         </div>
 
-        <div>
-          <select
-            name="service"
-            required
-            class="w-full px-4 py-3 border rounded-md outline-none focus:ring-4 border-slate-300 focus:border-slate-600 ring-slate-100"
-          >
-            <option value="">Select a Service</option>
-            <option value="web">Web</option>
-            <option value="analytics">Analytics</option>
-            <option value="ai">AI</option>
-          </select>
-        </div>
-
         <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
 			Send Message
 		  </button>
-		  <div id="result" class="mt-3 text-center"></div>
+		  <div id="result" class="mt-3 text-center min-h-[50px]"></div> <!-- Set a minimum height -->
 		</form>
 	  </div>
-	  <Footer data={data.footerData} />
+
   </main>
+  <Footer data={data.footerData} />
 </Layout>
 
 <style>
-  .invalid-feedback,
-  .empty-feedback {
-    display: none;
-  }
-
-  .was-validated :placeholder-shown:invalid ~ .empty-feedback {
-    display: block;
-  }
-
-  .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-    display: block;
-  }
-
-  .is-invalid,
-  .was-validated :invalid {
-    border-color: #dc3545;
-  }
+	/* Styling adjustments */
+	.invalid-feedback,
+	.empty-feedback {
+	  display: none;
+	}
+	
+	.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+	  display: block;
+	}
+	
+	.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+	  display: block;
+	}
+	
+	.is-invalid,
+	.was-validated :invalid {
+	  border-color: #dc3545;
+	}
+	
+	#result {
+	  min-height: 50px;  /* Maintain a minimum height */
+	  visibility: hidden;  /* Start with result as invisible */
+	  color: #dc3545;  /* Default text color for errors */
+	}
+	
+	#result.show {
+	  visibility: visible;  /* Only make visible when needed */
+	}
+  
+	/* Ensure consistent space between form and footer */
+	main {
+	  margin-bottom: 2rem;
+	}
+  
+	/* Additional space maintained after form */
+	#form {
+	  margin-bottom: 2rem; /* Adjust this value based on your specific design */
+	}
 </style>
 
 <script is:inline>
@@ -114,7 +146,10 @@ const data = await getContactData();
       const object = Object.fromEntries(formData);
       const json = JSON.stringify(object);
 
-      result.innerHTML = "Sending...";
+    //   result.innerHTML = "Sending...";
+	    // Show sending message
+		result.textContent = 'Sending...';
+    	result.classList.add('show');
 
       fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -127,23 +162,24 @@ const data = await getContactData();
       .then(async (response) => {
         let json = await response.json();
         if (response.status == 200) {
-          result.classList.add("text-green-500");
-          result.innerHTML = json.message;
+			result.textContent = json.message;
+        	result.style.color = "green";  // Success message in green
         } else {
           console.log(response);
-          result.classList.add("text-red-500");
-          result.innerHTML = json.message;
+			result.textContent = json.message;
+			result.style.color = "red";  // Errors in red
         }
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+		result.textContent = "Something went wrong!";
+      	result.style.color = "red";
       })
       .then(function () {
         form.reset();
         form.classList.remove("was-validated");
         setTimeout(() => {
-          result.style.display = "none";
+			result.classList.remove('show');  // Hide result after some time
         }, 5000);
       });
     });

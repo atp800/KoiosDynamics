@@ -22,3 +22,7 @@ Additional services:
 
 
 web3forms access key: 81349c69-1052-470d-9f15-b3b763045557
+
+Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
+Add about or faq section (or both?)
+Add articles/blog section for articles about what AI is, how it works etc. and improve SEO
