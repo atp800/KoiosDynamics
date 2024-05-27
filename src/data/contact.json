@@ -163,7 +163,6 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "Articles", "href": "articles" },
       { "label": "About", "href": "about" },
       { "label": "Contact", "href": "/" }
     ],
