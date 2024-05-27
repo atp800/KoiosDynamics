@@ -72,7 +72,7 @@
     "adventajesHalf": [
       {
         "title": "Need an extra pair of hands?",
-        "description": "",
+        "description": "Get support from experienced programmers on your projects.",
         "img": "graphic_coding1.jpg",
         "imageAlt": "this is an image about the template service adventajes",
         "checks": ["Clean and stable code", "Seamless integration", "Scalable and maintainable solutions"]

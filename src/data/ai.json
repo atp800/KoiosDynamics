@@ -71,18 +71,18 @@
     "title": "AI: It's not just a buzzword",
     "adventajes": [
       {
-        "title": "Uncover hidden relationships",
-        "description": "Understand the connections between variables",
+        "title": "Discover hidden relationships",
+        "description": "Uncover the connections between variables",
         "img": "graphic_robot.jpg",
         "imageAlt": "this is an image about the template service adventajes",
-        "checks": ["Customer segmentation for better targeting", "", ""]
+        "checks": ["Customer segmentation for better targeting", "Understand user behaviour", "Enhance efficiency and reduce wasted resources"]
       },
       {
         "title": "See into the future",
         "description": "Accurate forecasts and reliable predictions to guide your decisions.",
         "img": "graphic_analytics.jpg",
         "imageAlt": "this is an image about the SEO adventajes",
-        "checks": ["Model the impact of changes", "", ""]
+        "checks": ["Model the impact of changes", "Anticipate trends", "Optimise spending and stock levels"]
       }
     ]
   },
