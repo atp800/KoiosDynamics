@@ -17,7 +17,13 @@ import VercelIcon from "@/icons/techs/VercelIcon.astro";
 import VueIcon from "@/icons/techs/VueIcon.astro";
 
 import AstroIcon from "@/icons/techs/AstroIcon.astro";
+import CSSIcon from "@/icons/techs/CSSIcon.astro";
 import DjangoIcon from "@/icons/techs/DjangoIcon.astro";
+import HTMLIcon from "@/icons/techs/HTMLIcon.astro";
+import JavaIcon from "@/icons/techs/JavaIcon.astro";
+import JavaScriptIcon from "@/icons/techs/JavaScriptIcon.astro";
+import PythonIcon from "@/icons/techs/PythonIcon.astro";
+import SQLIcon from "@/icons/techs/SQLIcon.astro";
 
 interface Props {
   icon: Icon;
@@ -45,6 +51,12 @@ const icons = [
 
   AstroIcon,
   DjangoIcon,
+  PythonIcon,
+  JavaIcon,
+  JavaScriptIcon,
+  HTMLIcon,
+  CSSIcon,
+  SQLIcon
 ];
 
 let figures: Record<string, (_props: Record<string, unknown>) => unknown> = {};

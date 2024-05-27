@@ -83,19 +83,19 @@
     "title": "Expertise",
     "description": "We are experienced with a wide range of languages, libraries, technologies and frameworks, including Python, Java, JavaScript, SQL, HTML and CSS, data science and ML libraries, and frontend frameworks like Vue.js, Astro, Django and Svelte.",
     "brands": [
-      { "label": "Python", "icon": "PythonIcon", "href": "https://astro.build/" },
-      { "label": "Java", "icon": "JavaIcon", "href": "https://vuejs.org/" },
-      { "label": "JavaScript", "icon": "JavaScriptIcon", "href": "https://svelte.dev/" },
-      { "label": "HTML", "icon": "HTMLIcon", "href": "https://www.djangoproject.com/" },
+      { "label": "Python", "icon": "PythonIcon", "href": "https://www.python.org/" },
+      { "label": "Java", "icon": "JavaIcon", "href": "https://www.java.com/" },
+      { "label": "JavaScript", "icon": "JavaScriptIcon", "href": "https://www.javascript.com/" },
+      { "label": "HTML", "icon": "HTMLIcon", "href": "" },
       {
         "label": "CSS",
         "icon": "CSSIcon",
-        "href": "https://vercel.com/"
+        "href": ""
       },
       {
         "label": "SQL",
         "icon": "SQLIcon",
-        "href": "https://www.netlify.com/"
+        "href": ""
       }
     ]
   },
