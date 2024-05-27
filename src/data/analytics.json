@@ -42,7 +42,7 @@
 	  "highlightedTitle": "Koios Dynamics"
 	},
 	"servicesData": {
-	  "title": "Analytics and Dashbaords",
+	  "title": "Analytics and Dashboards",
 	  "services": [
 		{
 		  "title": "Google Analytics and Tag Manager configuration",
@@ -55,12 +55,12 @@
 		  "description": ""
 		},
 		{
-		  "title": "Advanced views powered by SQL",
+		  "title": "Tracking and data collection",
 		  "icon": "ConfigIcon",
 		  "description": ""
 		},
 		{
-		  "title": "Business",
+		  "title": "Data analyses and actionable insights",
 		  "icon": "FileIcon",
 		  "description": ""
 		}
@@ -75,14 +75,14 @@
 		  "description": "Understand your audience, where your traffic is coming from and what drives conversions.",
 		  "img": "graphic_dashboard.jpg",
 		  "imageAlt": "this is an image about the template service adventajes",
-		  "checks": ["Improve user experiences", "Increase site visits", "Boost conversion rate"]
+		  "checks": ["Collect data you can use", "Increase site visits", "Boost conversion rate"]
 		},
 		{
 		  "title": "Smarter Decisions, Backed by Data",
 		  "description": "Discrepancies, trends, anomalies and forecasts. All at your fingertips, so you can take real actions and make changes to maximise your KPIs.",
 		  "img": "graphic_reporting.jpg",
 		  "imageAlt": "this is an image about the SEO adventajes",
-		  "checks": ["Collect data you can use", "Adapt your marketing", "Increase traffic and sales"]
+		  "checks": ["Improve user experiences", "Adapt your marketing", "Increase traffic and sales"]
 		}
 	  ]
 	},

@@ -46,6 +46,19 @@ export interface Adventaje {
   checks: string[];
 }
 
+export interface AdventajesHalfData {
+	title: string;
+	adventajes: AdventajeHalf[];
+  }
+  
+export interface AdventajeHalf {
+	title: string;
+	description: string;
+	img: string;
+	imageAlt: string;
+	checks: string[];
+}
+
 export interface FooterData {
   logo: string;
   description: string;

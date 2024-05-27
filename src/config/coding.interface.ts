@@ -4,6 +4,7 @@ export interface CodingPageData {
   heroData: HeroData;
   servicesData: ServicesData;
   adventajesData: AdventajesData;
+  adventajesHalfData: AdventajesHalfData;
   brandsData: BrandsData;
   pricingData: PricingData;
   footerData: FooterData;
@@ -44,6 +45,19 @@ export interface Adventaje {
   img: string;
   imageAlt: string;
   checks: string[];
+}
+
+export interface AdventajesHalfData {
+	title: string;
+	adventajesHalf: AdventajeHalf[];
+  }
+  
+export interface AdventajeHalf {
+	title: string;
+	description: string;
+	img: string;
+	imageAlt: string;
+	checks: string[];
 }
 
 export interface FooterData {

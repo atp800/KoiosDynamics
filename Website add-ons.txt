@@ -11,3 +11,11 @@ FAQs or about
 
 in stack section mention javascript, css, html, node.js, npm and pnpm? Use their logos?
 - mention cloudflare hosting
+
+
+Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.
+
+
+Additional services:
+- technical writing
+- blog content support (e.g. for seo)

@@ -42,53 +42,46 @@
     "highlightedTitle": "Koios Dynamics"
   },
   "servicesData": {
-    "title": "Web Development",
+    "title": "Coding",
     "services": [
       {
-        "title": "Blogs",
+        "title": "Backend",
         "icon": "DevIcon",
         "description": ""
       },
       {
-        "title": "E-Commerce",
+        "title": "Frontend",
         "icon": "PlanetIcon",
         "description": ""
       },
 	  {
-        "title": "Portflios",
+        "title": "Scripting",
         "icon": "ConfigIcon",
         "description": ""
       },
       {
-        "title": "Business",
+        "title": "Database querying",
         "icon": "FileIcon",
         "description": ""
       }
       
     ]
   },
-  "adventajesData": {
-    "title": "    Unlock the Power of Koios Dynamics: Discover the Key Benefits",
-    "adventajes": [
+  "adventajesHalfData": {
+    "title": "Programming support you can rely on",
+    "adventajesHalf": [
       {
-        "title": "Why wait?",
-        "description": "Get up and running fast without comrpomising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
-        "img": "template.webp",
+        "title": "Need and extra pair of hands?",
+        "description": "",
+        "img": "graphic_coding1.jpg",
         "imageAlt": "this is an image about the template service adventajes",
-        "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
-      },
-      {
-        "title": "Maximise Conversions",
-        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
-        "img": "seo.webp",
-        "imageAlt": "this is an image about the SEO adventajes",
-        "checks": ["Improve user experiences", "Collect data you can use", "Increase traffic and sales"]
+        "checks": ["Stable and reliable code", "Clean and understandable", ""]
       }
     ]
   },
   "brandsData": {
-    "title": "Our stack",
-    "description": "We primarily use the modern Astro framework combined with Tailwind CSS for beautiful, fast, reliable and responsive websites. Depending on our client's needs we may also use Vue, Django and Svelte. Vue's reactive components bring a versatile and approachable structure to our codebase, Django's robust and scalable framework empowers us to build versatile backend solutions, and Svelte's compiler-based technology helps us write high-performance JavaScript with less code, ensuring our websites are efficient and user-friendly. ",
+    "title": "Expertise",
+    "description": "We are experienced with a wide range of languages, libraries, technologies and frameworks, including Python, Java, JavaScript, SQL, HTML and CSS, data science and ML libraries, and frontend frameworks like Vue.js, Astro, Django and Svelte.",
     "brands": [
       { "label": "Astro", "icon": "AstroIcon", "href": "https://astro.build/" },
       { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },

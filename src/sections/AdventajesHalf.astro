@@ -1,0 +1,27 @@
+---
+import SectionTitle from "@/components/SectionTitle.astro";
+import SideBySide from "@/components/SideBySide.astro";
+import type { AdventajesHalfData } from "@/config/landing.interface";
+
+interface Props {
+  data: AdventajesHalfData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="adventajes-half-section" class="flex flex-col mb-20 gap-y-28">
+	<SectionTitle>
+	  <p>
+		  {data.title}
+	  </p>
+	</SectionTitle>
+	<div>
+	  {
+		// Render only the first item from the adventajes array
+		data.adventajesHalf.slice(0, 1).map((adventajeHalf, idx) => (
+		  <SideBySide data={adventajeHalf} reversed={false} />
+		))
+	  }
+	</div>
+  </section>
