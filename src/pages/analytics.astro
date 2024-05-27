@@ -1,6 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import Brands from "@/sections/Brands.astro";
+import Adventajes from "@/sections/Adventajes.astro";
 import Footer from "@/sections/Footer.astro";
 import Header from "@/sections/Header.astro";
 import Services from "@/sections/Services.astro";
@@ -16,8 +16,8 @@ const data = await getAnalyticsData();
       <!-- <Hero data={data.heroData} /> -->
 	  <br><br><br><br>
       <Services data={data.servicesData} />
-      <!-- <Adventajes data={data.adventajesData} /> -->
-      <Brands data={data.brandsData} />
+      <Adventajes data={data.adventajesData} />
+      <!-- <Brands data={data.brandsData} /> -->
       <!-- <Pricing data={data.pricingData} /> -->
     </div>
     <Footer data={data.footerData} />
