@@ -27,10 +27,10 @@
     "logo": "Koios Dynamics",
     "links": [
       { "label": "Home", "href": "/" },
-      { "label": "Web Development", "href": "web" },
-      { "label": "Analytics", "href": "analytics" },
-      { "label": "AI and Data Science", "href": "ai" },
-      { "label": "Coding", "href": "coding" }
+      { "label": "Web Development", "href": "/web" },
+      { "label": "Analytics", "href": "/analytics" },
+      { "label": "AI and Data Science", "href": "/ai" },
+      { "label": "Coding", "href": "/coding" }
     ]
   },
 
@@ -183,7 +183,7 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "Contact", "href": "contact" }
+      { "label": "Contact", "href": "/contact" }
     ],
     "socials": [
       { "icon": "FacebookIcon", "href": "/" },
