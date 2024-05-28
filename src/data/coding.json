@@ -67,6 +67,25 @@
       
     ]
   },
+  "adventajesData": {
+    "title": "    Unlock the Power of Koios Dynamics: Discover the Key Benefits",
+    "adventajes": [
+      {
+        "title": "Why wait?",
+        "description": "Get up and running fast without compromising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
+        "img": "template.webp",
+        "imageAlt": "this is an image about the template service adventajes",
+        "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
+      },
+      {
+        "title": "Maximise Conversions",
+        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
+        "img": "seo.webp",
+        "imageAlt": "this is an image about the SEO adventajes",
+        "checks": ["Improve user experiences", "Collect data you can use", "Increase traffic and sales"]
+      }
+    ]
+  },
   "adventajesHalfData": {
     "title": "Programming support you can rely on",
     "adventajesHalf": [
@@ -156,7 +175,6 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "About", "href": "about" },
       { "label": "Contact", "href": "contact" }
     ],
     "socials": [

@@ -1,5 +1,7 @@
 Koios Colour Palette
 
+Blue text: #1C4ED8
+
 Dark blue: #1C4FD8
 Dark grey: #2F2F41
 Mid grey: #3E3D56

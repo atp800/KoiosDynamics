@@ -23,6 +23,19 @@ Additional services:
 
 web3forms access key: 81349c69-1052-470d-9f15-b3b763045557
 
-Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
-Add about or faq section (or both?)
-Add articles/blog section for articles about what AI is, how it works etc. and improve SEO
+
+TO DO
+- Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
+- Add about or faq section (or both?)
+- Add articles/blog section for articles about what AI is, how it works etc. and improve SEO
+
+- Add logo as favicon
+- Add logo to header
+- Add GTM and GA4 tracking - incuding form submissions
+- Add contact us CTA to other pages
+- Add example website images and links to examples - links to the live demos from the template websites, and to wild atlas (include UTM so I know where they're from)
+	- create list of website template options and make example for each
+- add dashboard template images and links to examples
+
+Readd social media links
+Readd sceon CTA button to Hero.astro (see our pricing? link to about/faqs?)

@@ -13,7 +13,7 @@
       "logo": "./public/favicon.svg",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "luna-landing@luna.com",
+        "email": "andreas.panay@outlook.com",
         "contactType": "Client Service"
       },
       "sameAs": [
@@ -83,6 +83,18 @@
         "img": "seo.webp",
         "imageAlt": "this is an image about the SEO adventajes",
         "checks": ["Improve user experiences", "Collect data you can use", "Increase traffic and sales"]
+      }
+    ]
+  },
+  "adventajesHalfData": {
+    "title": "Programming support you can rely on",
+    "adventajesHalf": [
+      {
+        "title": "Need an extra pair of hands?",
+        "description": "Get support from experienced programmers on your projects.",
+        "img": "graphic_coding1.jpg",
+        "imageAlt": "this is an image about the template service adventajes",
+        "checks": ["Clean and stable code", "Seamless integration", "Scalable and maintainable solutions"]
       }
     ]
   },
@@ -171,7 +183,6 @@
     "logo": "Koios Dynamics",
     "description": "Human and artificial intelligence, combined",
     "links": [
-      { "label": "About", "href": "about" },
       { "label": "Contact", "href": "contact" }
     ],
     "socials": [
