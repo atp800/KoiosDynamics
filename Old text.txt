@@ -5,3 +5,38 @@
       },
 
 	      "title": "Modern and intelligent web development, analytics, dashboards, and bespoke AI models",
+
+
+
+Old web brands section:
+ "brandsData": {
+    "title": "Our stack",
+    "description": "We primarily use the modern Astro framework combined with Tailwind CSS for beautiful, fast, reliable and responsive websites. Depending on our client's needs we may also use Vue, Django and Svelte. Vue's reactive components bring a versatile and approachable structure to our codebase, Django's robust and scalable framework empowers us to build versatile backend solutions, and Svelte's compiler-based technology helps us write high-performance JavaScript with less code, ensuring our websites are efficient and user-friendly. ",
+    "brands": [
+      { "label": "Astro", "icon": "AstroIcon", "href": "https://astro.build/" },
+      { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },
+      { "label": "Svelte", "icon": "SvelteIcon", "href": "https://svelte.dev/" },
+      { "label": "Django", "icon": "DjangoIcon", "href": "https://www.djangoproject.com/" },
+      {
+        "label": "NodeJS",
+        "icon": "NodeJSIcon",
+        "href": "https://nodejs.org/"
+      },
+      {
+        "label": "Cloudflare",
+        "icon": "CloudflareIcon",
+        "href": "https://www.Cloudflare.com/"
+      }
+    ]
+  },
+
+
+Old second web services section:
+{
+        "title": "Built-In Tracking",
+        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
+        "img": "graphic_presentation.jpg",
+        "imageAlt": "this is an image about the SEO adventajes",
+        "checks": ["See where users come from", "Gain usable insights", "Improve your KPIs"]
+      }
+

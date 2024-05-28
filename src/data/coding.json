@@ -9,7 +9,7 @@
       "@type": "Organization",
       "name": "Koios Dynamics",
       "description": "Human and artificial intelligence, combined",
-      "url": "https://luna-landing-rust.vercel.app/",
+      "url": "https://luna-landing-rust.NodeJS.app/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
         "@type": "ContactPoint",
@@ -31,7 +31,7 @@
       { "label": "Analytics", "href": "/analytics" },
       { "label": "AI and Data Science", "href": "/ai" },
       { "label": "Coding", "href": "/coding" },
-{ "label": "Contact", "href": "/contact" }
+	  { "label": "Contact", "href": "/contact" }
     ]
   },
 
@@ -107,16 +107,8 @@
       { "label": "Java", "icon": "JavaIcon", "href": "https://www.java.com/" },
       { "label": "JavaScript", "icon": "JavaScriptIcon", "href": "https://www.javascript.com/" },
       { "label": "HTML", "icon": "HTMLIcon", "href": "" },
-      {
-        "label": "CSS",
-        "icon": "CSSIcon",
-        "href": ""
-      },
-      {
-        "label": "SQL",
-        "icon": "SQLIcon",
-        "href": ""
-      }
+      { "label": "CSS", "icon": "CSSIcon", "href": "" },
+      { "label": "SQL", "icon": "SQLIcon", "href": "" }
     ]
   },
   "pricingData": {
