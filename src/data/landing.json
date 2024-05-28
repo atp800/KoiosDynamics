@@ -30,7 +30,8 @@
       { "label": "Web Development", "href": "/web" },
       { "label": "Analytics", "href": "/analytics" },
       { "label": "AI and Data Science", "href": "/ai" },
-      { "label": "Coding", "href": "/coding" }
+      { "label": "Coding", "href": "/coding" },
+	  { "label": "Contact", "href": "/contact" }
     ]
   },
 
