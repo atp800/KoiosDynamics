@@ -18,7 +18,7 @@ const { data } = Astro.props;
   <SectionTitle>
     {data.title}
   </SectionTitle>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-4 w-full max-w-screen-lg">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-20 w-full max-w-screen-lg">
     {
       data.services.map((service) => (
         <article class="flex gap-x-6 md:gap-x-12 w-full items-start">
