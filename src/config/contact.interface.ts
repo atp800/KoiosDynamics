@@ -49,7 +49,7 @@ export interface Adventaje {
 
 export interface AdventajesHalfData {
 	title: string;
-	adventajes: AdventajeHalf[];
+	adventajesHalf: AdventajeHalf[];
   }
   
 export interface AdventajeHalf {
