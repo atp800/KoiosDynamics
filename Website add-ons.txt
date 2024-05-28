@@ -15,6 +15,15 @@ in stack section mention javascript, css, html, node.js, npm and pnpm? Use their
 
 Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.
 
+Old second web services section:
+{
+        "title": "Built-In Tracking",
+        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
+        "img": "graphic_presentation.jpg",
+        "imageAlt": "this is an image about the SEO adventajes",
+        "checks": ["See where users come from", "Gain usable insights", "Improve your KPIs"]
+      }
+
 
 Additional services:
 - technical writing
@@ -25,9 +34,11 @@ web3forms access key: 81349c69-1052-470d-9f15-b3b763045557
 
 
 TO DO
-- Make menu come out further on mobile/small screens
-- Make price in pricing boxes adjust to screen size like the title does
-- Make all the bullet points in the price boxes centred or left aligned, at least on small screens/mobile
+- Make bullet points of services at top of each page left aligned when in a single column
+- Make icons for top of page service bullet points relevant
+- Replace second web image with one more relevant to ne bullet points?
+
+
 - Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
 - Add about or faq section (or both?)
 - Add articles/blog section for articles about what AI is, how it works etc. and improve SEO

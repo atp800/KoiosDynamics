@@ -73,17 +73,17 @@
     "adventajes": [
       {
         "title": "Why wait?",
-        "description": "Get up and running fast without compromising on quality. We use well established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
+        "description": "Get up and running fast without compromising on quality. We use well-established and carefully optimised pre-built foundations, customised to your specifications, for rapid development and maximum reliability, while still providing flexibility and personalisation.",
         "img": "graphic_running.jpg",
         "imageAlt": "this is an image about the template service adventajes",
         "checks": ["Reliable fast performance", "Rapid deployment", "Beautifully customised"]
       },
       {
-        "title": "Built-In Tracking",
-        "description": "Monitor you users throughout their journey to provide the best possible experience through at every stage of the funnel.",
-        "img": "graphic_presentation.jpg",
+        "title": "Complete ownership",
+        "description": "The full codebase and all accounts for your website transferred to you, so you can make any changes or use any developer you want in the future.",
+        "img": "graphic_laptop2.jpg",
         "imageAlt": "this is an image about the SEO adventajes",
-        "checks": ["See where users come from", "Gain usable insights", "Improve your KPIs"]
+        "checks": ["No obligatory ongoing fees", "Any optional services (e.g. hosting) provided at cost price", "Never feel tied in"]
       }
     ]
   },
