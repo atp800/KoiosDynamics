@@ -25,11 +25,13 @@ web3forms access key: 81349c69-1052-470d-9f15-b3b763045557
 
 
 TO DO
+- Make menu come out further on mobile/small screens
+- Make price in pricing boxes adjust to screen size like the title does
+- Make all the bullet points in the price boxes centred or left aligned, at least on small screens/mobile
 - Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
 - Add about or faq section (or both?)
 - Add articles/blog section for articles about what AI is, how it works etc. and improve SEO
 
-- Add logo as favicon
 - Add logo to header
 - Add GTM and GA4 tracking - incuding form submissions
 - Add contact us CTA to other pages
