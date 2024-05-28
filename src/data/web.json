@@ -47,22 +47,22 @@
     "services": [
       {
         "title": "Blogs",
-        "icon": "DevIcon",
+        "icon": "BlogIcon",
         "description": ""
       },
       {
         "title": "E-Commerce",
-        "icon": "PlanetIcon",
+        "icon": "ECommerceIcon",
         "description": ""
       },
 	  {
         "title": "Portflios",
-        "icon": "ConfigIcon",
+        "icon": "PortfolioIcon",
         "description": ""
       },
       {
-        "title": "Business",
-        "icon": "FileIcon",
+        "title": "Businesses",
+        "icon": "BusinessIcon",
         "description": ""
       }
       
