@@ -26,21 +26,19 @@ web3forms access key: 81349c69-1052-470d-9f15-b3b763045557
 
 
 TO DO
-- Make bullet points of services at top of each page left aligned when in a single column
-- Make icons for top of page service bullet points relevant
-- Swap NodeJS and Cloudflare tech brand icons on web dev page for ones I use: cloudflare, node.js
+- Make icons for top of page service bullet points relevant for other pages
 
 - Make new image for second set of web bullet points
 - Add CTA to every page
-- Add see rpicing link in places, linking back to pricing section of main apge, or a separate pricing page?
-- Break our stack text block on web page into two paragraphs
-
-
+- Add see pricing link in places, linking back to pricing section of main apge, or a separate pricing page?
 
 - Add hcaptcha to web3form, switch email to andreas.panay one (or a business specific one whcih i can put ont he website fro people to cotnact me directly?)
 - Add about or faq section (or both?)
 - Add articles/blog section for articles about what AI is, how it works etc. and improve SEO
 
+- check thoroughly for typos, punctuation and grammar
+
+- make better logo
 - Add logo to header
 - Add GTM and GA4 tracking - incuding form submissions
 - Add contact us CTA to other pages
