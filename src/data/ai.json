@@ -73,7 +73,7 @@
     "adventajes": [
       {
         "title": "Discover hidden relationships",
-        "description": "Uncover the connections between variables",
+        "description": "Uncover the connections between variables.",
         "img": "graphic_robot.jpg",
         "imageAlt": "this is an image about the template service adventajes",
         "checks": ["Customer segmentation for better targeting", "Understand user behaviour", "Enhance efficiency and reduce wasted resources"]
