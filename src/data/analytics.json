@@ -71,14 +71,14 @@
 	  "title": "Your data at a glance",
 	  "adventajes": [
 		{
-		  "title": "Knowledge is Power",
+		  "title": "Knowledge is power",
 		  "description": "Understand your audience, where your traffic is coming from and what drives conversions.",
 		  "img": "graphic_dashboard.jpg",
 		  "imageAlt": "this is an image about the template service adventajes",
 		  "checks": ["Collect data you can use", "Increase site visits", "Boost conversion rate"]
 		},
 		{
-		  "title": "Smarter Decisions, Backed by Data",
+		  "title": "Smarter decisions, backed by data",
 		  "description": "Discrepancies, trends, anomalies and forecasts. All at your fingertips, so you can take real actions and make changes to maximise your KPIs.",
 		  "img": "graphic_reporting.jpg",
 		  "imageAlt": "this is an image about the SEO adventajes",
