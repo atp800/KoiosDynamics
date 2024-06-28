@@ -47,22 +47,22 @@
     "services": [
       {
         "title": "Web Development",
-        "icon": "DevIcon",
+        "icon": "ScriptingIcon",
         "description": "We can have a fast and well-optimised website up and running in less than a week, using professional templates crafted by experienced designers."
       },
       {
         "title": "Analytics and Data Visualisation",
-        "icon": "PlanetIcon",
+        "icon": "GraphIcon",
         "description": "Turn your website into reliable revenue and give your users the best possible experience by tracking how your website is used. Maximise KPIs with your data only a glance away in a clean, intuitive dashboard."
       },
 	  {
         "title": "Data Science and  AI Modelling",
-        "icon": "ConfigIcon",
+        "icon": "ChartIcon",
         "description": "Know what will happen before it does. Forecasting, modelling, and prediction of anything from order volume and revenue figures, to industry trends and user behaviour."
       },
       {
         "title": "Coding Support",
-        "icon": "FileIcon",
+        "icon": "DevIcon",
         "description": "Need an extra pair of hands? Our professional programmers have years of experince in Python, Java, SQL, JavaScript and more. Get support in writing high quality code for backend, frontend, database and ML projects at low cost."
       }
       
