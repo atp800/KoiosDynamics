@@ -30,7 +30,15 @@ const ldJson = JSON.stringify(meta.ldJson);
     <title>{meta.title}</title>
     <meta name="description" content={meta.description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1c4ed8">
+	<meta name="msapplication-TileColor" content="#1c4ed8">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
     <link rel="canonical" href={import.meta.env.SITE} />
     <script type="application/ld+json" set:html={ldJson} />
   </head>
