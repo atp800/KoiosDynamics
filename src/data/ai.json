@@ -47,12 +47,12 @@
     "services": [
       {
         "title": "Complex insights and analyses",
-        "icon": "DevIcon",
+        "icon": "MagnifyingGlassIcon",
         "description": ""
       },
       {
         "title": "Forecasts and predictions",
-        "icon": "PlanetIcon",
+        "icon": "ChartIcon",
         "description": ""
       },
 	  {
@@ -62,7 +62,7 @@
       },
       {
         "title": "Statistical learning",
-        "icon": "FileIcon",
+        "icon": "StatisticsIcon",
         "description": ""
       }
       

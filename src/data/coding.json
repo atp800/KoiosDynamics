@@ -52,17 +52,17 @@
       },
       {
         "title": "Frontend",
-        "icon": "PlanetIcon",
+        "icon": "LaptopIcon",
         "description": ""
       },
 	  {
         "title": "Scripting",
-        "icon": "ConfigIcon",
+        "icon": "ScriptIcon",
         "description": ""
       },
       {
         "title": "Database querying",
-        "icon": "FileIcon",
+        "icon": "ScriptingIcon",
         "description": ""
       }
       

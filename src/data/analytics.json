@@ -51,17 +51,17 @@
 		},
 		{
 		  "title": "Professional and streamlined dashboards",
-		  "icon": "PlanetIcon",
+		  "icon": "GraphIcon",
 		  "description": ""
 		},
 		{
 		  "title": "Tracking and data collection",
-		  "icon": "ConfigIcon",
+		  "icon": "MagnifyingGlassIcon",
 		  "description": ""
 		},
 		{
 		  "title": "Data analyses and actionable insights",
-		  "icon": "FileIcon",
+		  "icon": "ChartIcon",
 		  "description": ""
 		}
 		
