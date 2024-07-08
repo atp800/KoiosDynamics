@@ -134,7 +134,7 @@
         "title": "Tracking and Dashboard Setup",
         "description": "Start collecting valuable data",
         "price": {
-          "amount": "£100",
+          "amount": "£150",
           "period": "One time fee"
         },
         "features": [
@@ -166,7 +166,7 @@
         "title": "Day Rate",
         "description": "Standard rate charged for a 7 hr day",
         "price": {
-			"amount": "£125",
+			"amount": "£350",
 			"period": "/day"
 		  },
         "features": [
